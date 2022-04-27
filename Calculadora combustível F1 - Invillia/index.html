@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/f1fav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">  
+    <title>F1 - Abastecimentos</title>
+</head>
+<body>
+    <header>
+        <h1>Fórmula 1<br/>Calculadora de combustível</h1>
+        <p id="intro">Aqui será possível estabelecer a quantidade de combustível que o veículo poderá carregar, no mínimo, até o próximo reabastecimento. Assim, tentando manter-se o mais leve possível e com a menor quantidade de idas ao pit-stop.</p>
+    </header>
+    <section>
+        <div>            
+            <h2>Em qual circuito ocorrerá a corrida?</h2>
+            <select name="circuito" id="circuito">
+                <option value="3780">Circuito de Rua de Adelaide - 3,780 Km</option>
+                <option value="4828">Circuito de Aintree - 4,828 Km</option>
+                <option value="5303">Circuito de Albert Park - 5,303 Km</option>
+                <option value="4692">Autódromo Internacional do Algarve - 4,692 Km</option>
+                <option value="5513">Circuito das Américas - 5,513 Km</option>
+                <option value="4031">Autódromo de Anderstorp - 4,031</option>
+                <option value="5412">Circuito Internacional do Bahrein 1 - 5,412 Km</option>
+                <option value="6299">Circuito Internacional do Bahrein 2 - 6,299 Km</option>
+                <option value="3664">Circuito Internacional do Bahrein 3 - 3,664 Km</option>
+                <option value="6003">Circuito Urbano de Baku - 6,003 Km</option>
+                <option value="4655">Circuito de Barcelona-Catalunha - 4,655 Km</option>
+                <option value="4309" selected>Autódromo de Interlagos - 4,309 Km</option>
+            </select>
+            <h2>
+                Quantas voltas terá a corrida no total?<br/>
+                <input type="number" name="totalvoltas" id="totalvoltas">
+            </h2>
+            <h2>
+                Número de voltas desejadas até o primeiro reabastecimento:<br/>
+                <input type="number" name="numvoltas" id="numvoltas">
+            </h2>
+            <input type="button" value="Calcular Litros" onclick="reabastecer()">                      
+        </div>
+        <div id="res">
+            <h3>Preparando cálculo...</h3>
+        </div>
+    </section>
+    <footer>
+        &copy; Igor Lopes
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
