@@ -10,6 +10,14 @@ h1 {
 
 #intro {
     color: white;
+    width: 500px;
+    margin: auto;
+}
+
+#obs {
+    color: white;
+    width: 500px;
+    margin: auto;
 }
 
 p {
@@ -26,6 +34,7 @@ section {
 }
 
 footer {
+    color: white;
     text-align: center;
     font-style: italic;
     padding: 30px;
