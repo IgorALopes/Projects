@@ -1,6 +1,6 @@
 PORTFÓLIO DE PROJETOS
 
-Os detalhes de cada projeto estão em arquivos README em suas respectivas pastas.
+Os detalhes de cada projeto estão em arquivos README em suas respectivas pastas em [meu repositório no GIT/GitHub](https://github.com/IgorALopes/Projects).
 
 Execute diretamente aqui:
 
